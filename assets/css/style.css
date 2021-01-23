@@ -377,7 +377,6 @@ body {
 
 .date-role-container li {
   display: flex;
-  align-items: center;
   margin-bottom: 0.5rem;
 }
 
@@ -387,9 +386,9 @@ body {
 
 .date-role {
   flex-shrink: 0;
-  font-weight: 600;
   text-align: left;
   width: 7rem;
+  font-family: "Montserrat Bold";
 }
 
 .link-text {
