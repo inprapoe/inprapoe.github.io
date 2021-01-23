@@ -8,6 +8,16 @@ body {
   font-weight: 600;
 }
 
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 50;
+}
+
 .mont-bold {
   font-family: "Montserrat Bold";
 }
@@ -260,6 +270,7 @@ body {
   line-height: 1.25rem;
   overflow-y: scroll;
   width: 100%;
+  z-index: 100;
 }
 
 .modal-content {
